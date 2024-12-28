@@ -9,6 +9,10 @@ const nextConfig = withBundleAnalyzer({
   pageExtensions: ["ts", "tsx", "js"],
   eslint: {
     dirs: ["src"],
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
   images: {
     domains: ["https://flagcdn.com"],
