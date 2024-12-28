@@ -15,31 +15,37 @@ import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
+import JavaSvg from "@/public/icons/java.svg";
+import CppSvg from "@/public/icons/c.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
+import AngularSvg from "@/public/icons/angular-icon.svg";
+import NextSvg from "@/public/icons/next-js.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import DjangoSvg from "@/public/icons/django.svg";
+import PhpSvg from "@/public/icons/php.svg";
+import LaravelSvg from "@/public/icons/laravel.svg";
+import CodeigniterSvg from "@/public/icons/codeigniter.svg";
 
 // Database and ORMS
+import MysqlSvg from "@/public/icons/mysql.svg";
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
+import XamppSvg from "@/public/icons/xampp.svg";
+import TerraformSvg from "@/public/icons/terraform.svg";
+import SshSvg from "@/public/icons/ssh.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -54,11 +60,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: CsssSvg,
       },
       {
-        name: "SASS",
-        icon: SassSvg,
-      },
-      {
-        name: "Javascript",
+        name: "JavaScript",
         icon: JavascriptSvg,
       },
       {
@@ -69,50 +71,38 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Python",
         icon: PythonSvg,
       },
+      {
+        name: "Java",
+        icon: JavaSvg,
+      },
+      {
+        name: "C++",
+        icon: CppSvg,
+      },
     ],
   },
   {
     sectionName: "Libraries and Frameworks",
     skills: [
       {
-        name: "Reactjs",
+        name: "ReactJS",
         icon: ReactjsSvg,
       },
       {
-        name: "Nextjs",
-        icon: SiNextdotjs,
+        name: "Angular",
+        icon: AngularSvg,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
+        name: "Next.js",
+        icon: NextSvg,
       },
       {
         name: "Redux",
         icon: ReduxSvg,
       },
       {
-        name: "Tailwindcss",
+        name: "TailwindCSS",
         icon: TailwindcssSvg,
-      },
-      {
-        name: "MUI",
-        icon: MuiSvg,
-      },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
-      },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
       },
     ],
   },
@@ -120,20 +110,28 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Backend",
     skills: [
       {
-        name: "Nodejs",
+        name: "NodeJS",
         icon: NodejsSvg,
       },
       {
-        name: "Express",
+        name: "ExpressJS",
         icon: SiExpress,
       },
       {
-        name: "Socket.io",
-        icon: SiSocketdotio,
+        name: "Django",
+        icon: DjangoSvg,
       },
       {
-        name: "Flask",
-        icon: SiFlask,
+        name: "PHP",
+        icon: PhpSvg,
+      },
+      {
+        name: "Laravel",
+        icon: LaravelSvg,
+      },
+      {
+        name: "CodeIgniter",
+        icon: CodeigniterSvg,
       },
     ],
   },
@@ -141,16 +139,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Databases and ORMs",
     skills: [
       {
+        name: "MySQL",
+        icon: MysqlSvg,
+      },
+      {
         name: "MongoDB",
         icon: MongoDBSvg,
       },
       {
-        name: "Postgress",
+        name: "PostgreSQL",
         icon: PostgressSvg,
-      },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
       },
     ],
   },
@@ -162,16 +160,20 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: GitSvg,
       },
       {
-        name: "Docker",
-        icon: DockerSvg,
-      },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
-      {
         name: "Postman",
         icon: PostmanSvg,
+      },
+      {
+        name: "XAMPP",
+        icon: XamppSvg,
+      },
+      {
+        name: "Terraform",
+        icon: TerraformSvg,
+      },
+      {
+        name: "SSH",
+        icon: SshSvg,
       },
     ],
   },

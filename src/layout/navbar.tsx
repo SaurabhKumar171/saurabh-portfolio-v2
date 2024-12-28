@@ -35,7 +35,7 @@ export default function Navbar(props: NavbarProps) {
       <div className="mx-auto flex items-center justify-between lg:max-w-7xl">
         <Link
           href="/"
-          className="drop-shadow-teralight flex items-center justify-center"
+          className="drop-shadow-teralight flex items-center justify-center rounded-full p-1 ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50"
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
