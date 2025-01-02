@@ -161,9 +161,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "StudyNotion",
     favicon: "/images/projects/logos/studynotion.ico",
+    background: "bg-[#000814] w-[5rem]",
     imageUrl: [
-      "/images/projects/studynotionLight.webp",
-      "/images/projects/studynotionDark.webp",
+      "/images/projects/studynotion-homepage.webp",
+      "/images/projects/studynotion-hero.webp",
+      "/images/projects/studynotion-course.webp",
+      "/images/projects/studynotion-addcourse.webp",
     ],
     description:
       "An advanced Ed-Tech platform built with the MERN stack. It facilitates the creation, consumption, and rating of educational content, supporting thousands of concurrent users. Features include content management, user ratings, and global accessibility for learners and instructors.",
@@ -173,6 +176,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Store It",
     favicon: "/images/projects/logos/storeit.ico",
+    background: "bg-[#fa7275] w-[2rem]",
     imageUrl: [
       "/images/projects/storeItLight.webp",
       "/images/projects/storeItDark.webp",
@@ -185,6 +189,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Portfolio",
     favicon: "/favicon.ico",
+    background: "",
     imageUrl: [
       "/images/projects/portfolioLight.webp",
       "/images/projects/portfolioDark.webp",
