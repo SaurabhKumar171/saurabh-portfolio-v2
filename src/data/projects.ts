@@ -131,8 +131,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["MERN Stack", "Redux", "TailwindCSS", "MongoDB", "NodeJS", "Vercel"],
     image: {
-      LIGHT: "/images/projects/studynotionLight.webp",
-      DARK: "/images/projects/studynotionDark.webp",
+      LIGHT: "/images/projects/studynotion-homepage.webp",
+      DARK: "/images/projects/studynotion-homepage.webp",
     },
   },
   {
@@ -141,8 +141,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["ReactJS", "Firebase", "TailwindCSS", "Material UI", "Vercel"],
     image: {
-      LIGHT: "/images/projects/storeItLight.webp",
-      DARK: "/images/projects/storeItDark.webp",
+      LIGHT: "/images/projects/storeithomepage.webp",
+      DARK: "/images/projects/storeithomepage.webp",
     },
   },
   {
@@ -178,8 +178,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/storeit.ico",
     background: "bg-[#fa7275] w-[2rem]",
     imageUrl: [
-      "/images/projects/storeItLight.webp",
-      "/images/projects/storeItDark.webp",
+      "/images/projects/storeithomepage.webp",
+      "/images/projects/storeitmedia.webp",
+      "/images/projects/storeitsearch.webp",
     ],
     description:
       "A storage management application built with ReactJS and Firebase. Users can securely store, retrieve, and manage their digital assets. Includes real-time synchronization, intuitive UI, and robust security features.",
