@@ -33,9 +33,10 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I bring ideas to life by creating impactful digital solutions.
+              From dynamic websites to advanced web applications, I combine
+              technical expertise, innovative design, and user-centric thinking
+              to deliver seamless and exceptional experiences.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -44,8 +45,8 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              that highlight my expertise in JavaScript, React.js, Angular.js,
+              Node.js, Express.js, MongoDB, MySQL, and web development.
             </p>
           </FadeUp>
           <FadeRight

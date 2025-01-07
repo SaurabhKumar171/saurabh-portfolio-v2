@@ -57,7 +57,7 @@ export default function LandingHero() {
                 an expert in{" "}
                 <span className="font-semibold text-accent">NodeJS</span>,{" "}
                 <span className="font-semibold text-accent">ExpressJS</span>,{" "}
-                <span className="font-semibold text-accent">DJango</span>, and{" "}
+                <span className="font-semibold text-accent">Django</span>, and{" "}
                 <span className="font-semibold text-accent">PHP</span>
               </div>
             </FadeUp>

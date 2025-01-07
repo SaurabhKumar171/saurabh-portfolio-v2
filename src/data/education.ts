@@ -5,7 +5,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     title: "Bachelor Of Technology in Computer Science",
     organisation: {
       name: "Krishna Engineering College",
-      href: "https://eng.rizvi.edu.in/",
+      href: "https://www.facebook.com/kecghaziabadofficial/",
     },
     date: "2019-2023",
     location: "Ghaziabad, UP",
@@ -16,7 +16,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     title: "Higher Secondary School",
     organisation: {
       name: "Ch. Baldev Singh Model School",
-      href: "https://www.mithibai.ac.in/",
+      href: "http://www.cbsschool.in/",
     },
     date: "2016-2018",
     location: "Nagloi, Delhi",
